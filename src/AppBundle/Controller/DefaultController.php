@@ -687,4 +687,14 @@ public function domAction()
 {
     return $this->render('default/do_m.html.twig');
 }
+     /*
+     * EX
+     */
+    /**
+    * @Route("/exegi.html", name="exegi")
+    */
+    public function exegiAction()
+    {
+       return $this->render('default/exegi.html.twig');
+    }
 }
