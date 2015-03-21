@@ -492,4 +492,12 @@ public function podrozdunajcemAction()
     {
         return $this->render('default/bambo.html.twig');
     }
+    /**
+ * @Route("/ocalony.html", name="ocalony")
+ */
+public function  ocalonyAction()
+{
+    return $this->render('default/ocalony.html.twig');
+}
+
 }
